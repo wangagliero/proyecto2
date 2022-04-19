@@ -1,0 +1,130 @@
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  color: aliceblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100; }
+
+.conteiner {
+  width: 98%;
+  margin: auto; }
+
+.menubar {
+  display: none; }
+
+label {
+  float: right; }
+
+h1 {
+  float: left;
+  color: aliceblue; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #fff;
+  font-family: arial; }
+
+.menu {
+  text-align: right;
+  height: 50px;
+  padding: 40px 50px 0 0;
+  color: #fff;
+  font-weight: 300; }
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px; }
+  .menu a:hover {
+    color: #4f4fb5; }
+
+header {
+  width: 100%;
+  height: 540px;
+  background-image: url(../imagenes/fondo4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.wave {
+  position: absolute;
+  bottom: 0%;
+  width: 100%; }
+
+.texto {
+  width: 48%; }
+  .texto h3 {
+    text-align: left;
+    margin-bottom: 15px; }
+    .texto h3 span {
+      background-color: #1e83ab;
+      border-radius: 50%;
+      display: inline-block;
+      color: #fff;
+      text-align: center;
+      width: 30px;
+      height: 30px; }
+
+.titulo {
+  text-align: center;
+  font-family: sans-serif; }
+
+.galeria-portafolio .imagengaleria {
+  display: inline-block; }
+  .galeria-portafolio .imagengaleria .imagen1 {
+    padding: 20px;
+    width: 400px;
+    height: 300px; }
+  .galeria-portafolio .imagengaleria .imagen2 {
+    padding: 20px;
+    width: 400px;
+    height: 300px; }
+  .galeria-portafolio .imagengaleria .imagen3 {
+    padding: 20px;
+    width: 400px;
+    height: 300px; }
+  .galeria-portafolio .imagengaleria .imagen4 {
+    padding: 20px;
+    width: 400px;
+    height: 300px; }
+  .galeria-portafolio .imagengaleria .imagen5 {
+    padding: 20px;
+    width: 400px;
+    height: 300px; }
+  .galeria-portafolio .imagengaleria .imagen6 {
+    padding: 20px;
+    width: 400px;
+    height: 300px; }
+  .galeria-portafolio .imagengaleria .imagen7 {
+    padding: 20px;
+    width: 400px;
+    height: 300px; }
+  .galeria-portafolio .imagengaleria .imagen8 {
+    padding: 20px;
+    width: 400px;
+    height: 300px; }
+  .galeria-portafolio .imagengaleria .imagen9 {
+    padding: 20px;
+    width: 400px;
+    height: 300px; }
+
+.carta {
+  display: inline-block; }
+  .carta .cliente1 {
+    width: 200px;
+    height: 200px; }
+  .carta .cliente2 {
+    width: 200px;
+    height: 200px; }
+
+footer {
+  background-color: #1e83ab;
+  color: #fff;
+  text-align: center; }

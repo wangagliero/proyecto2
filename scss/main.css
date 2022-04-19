@@ -1,64 +1,119 @@
-body {
-  background-color: #fff;
-  font-family: arial;
-}
-
-.menu {
-  text-align: right;
-  height: 50px;
-  padding: 40px 50px 0 0;
+.nombremenu {
   color: #fff;
-  font-weight: 300;
-}
-
-.menu a {
-  color: #fff;
-  text-decoration: none;
-  margin-right: 10px;
-}
-
-.menu a:hover {
-  color: #4f4fb5;
+  float: left;
 }
 
 header {
+  position: fixed;
+  background-color: #333;
   width: 100%;
-  height: 540px;
-  background-image: url(../imagenes/fondo4.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  height: 50px;
+  color: #fff;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
-.wave {
-  position: absolute;
-  bottom: 0%;
+.contenedor {
+  width: 98%;
+  margin: auto;
+}
+
+menu {
   width: 100%;
+  height: 100%;
 }
 
-.texto {
-  width: 48%;
-}
-
-.texto h3 {
-  text-align: left;
-  margin-bottom: 15px;
-}
-
-.texto h3 span {
-  background-color: #1e83ab;
-  border-radius: 50%;
+a {
   display: inline-block;
+  height: 50px;
+  width: 100px;
+  top: 0;
   color: #fff;
   text-align: center;
-  width: 30px;
-  height: 30px;
+  text-decoration: none;
+  padding: 30px 30px 0 0;
+  float: right;
 }
 
-.titulo {
+a:hover {
+  text-decoration: none;
+  color: #4f4fb5;
+  background-color: black;
+}
+
+.banner {
+  margin-top: 50px;
+  position: relative;
+  display: inline-block;
   text-align: center;
-  font-family: sans-serif;
+}
+
+.imagenfondo {
+  width: 100%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.leermas {
+  background-color: #80cf80;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  width: 140px;
+  border-radius: 8px;
+  padding: 16px 24px;
+}
+
+.leermas:hover {
+  background-color: #29a129;
+  color: #fff;
+}
+
+.bienvenidos {
+  padding: 30px;
+  text-align: center;
+}
+
+.blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+article {
+  margin: 15px;
+}
+
+.imagenblog {
+  width: 300px;
+  height: 300px;
+  border-radius: 20%;
+}
+
+h4 {
+  margin: 15px;
+  text-align: center;
 }
 
 .galeria-portafolio .imagengaleria {
@@ -69,54 +124,161 @@ header {
   padding: 20px;
   width: 400px;
   height: 300px;
+  -webkit-transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, transform 2s;
+  transition: height 1s, width 2s, transform 2s, -webkit-transform 2s;
 }
 
 .galeria-portafolio .imagengaleria .imagen2 {
   padding: 20px;
   width: 400px;
   height: 300px;
+  -webkit-transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, transform 2s;
+  transition: height 1s, width 2s, transform 2s, -webkit-transform 2s;
 }
 
 .galeria-portafolio .imagengaleria .imagen3 {
   padding: 20px;
   width: 400px;
   height: 300px;
+  -webkit-transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, transform 2s;
+  transition: height 1s, width 2s, transform 2s, -webkit-transform 2s;
 }
 
 .galeria-portafolio .imagengaleria .imagen4 {
   padding: 20px;
   width: 400px;
   height: 300px;
+  -webkit-transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, transform 2s;
+  transition: height 1s, width 2s, transform 2s, -webkit-transform 2s;
 }
 
 .galeria-portafolio .imagengaleria .imagen5 {
   padding: 20px;
   width: 400px;
   height: 300px;
+  -webkit-transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, transform 2s;
+  transition: height 1s, width 2s, transform 2s, -webkit-transform 2s;
 }
 
 .galeria-portafolio .imagengaleria .imagen6 {
   padding: 20px;
   width: 400px;
   height: 300px;
+  -webkit-transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, transform 2s;
+  transition: height 1s, width 2s, transform 2s, -webkit-transform 2s;
 }
 
 .galeria-portafolio .imagengaleria .imagen7 {
   padding: 20px;
   width: 400px;
   height: 300px;
+  -webkit-transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, transform 2s;
+  transition: height 1s, width 2s, transform 2s, -webkit-transform 2s;
 }
 
 .galeria-portafolio .imagengaleria .imagen8 {
   padding: 20px;
   width: 400px;
   height: 300px;
+  -webkit-transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, transform 2s;
+  transition: height 1s, width 2s, transform 2s, -webkit-transform 2s;
 }
 
 .galeria-portafolio .imagengaleria .imagen9 {
   padding: 20px;
   width: 400px;
   height: 300px;
+  -webkit-transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, -webkit-transform 2s;
+  transition: height 1s, width 2s, transform 2s;
+  transition: height 1s, width 2s, transform 2s, -webkit-transform 2s;
+}
+
+.imagen1:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  background-color: purple;
+}
+
+.imagen2:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  background-color: black;
+}
+
+.imagen3:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  background-color: pink;
+}
+
+.imagen4:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  background-color: skyblue;
+}
+
+.imagen5:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  background-color: red;
+}
+
+.imagen6:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  background-color: green;
+}
+
+.imagen7:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  background-color: pink;
+}
+
+.imagen8:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  background-color: blue;
+}
+
+.imagen9:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  background-color: #4dec0e;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.titulo {
+  text-align: center;
+  font-family: sans-serif;
 }
 
 .carta {
@@ -131,11 +293,5 @@ header {
 .carta .cliente2 {
   width: 200px;
   height: 200px;
-}
-
-footer {
-  background-color: #1e83ab;
-  color: #fff;
-  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

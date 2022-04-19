@@ -1,0 +1,109 @@
+
+
+.galeria-portafolio{
+    .imagengaleria {
+         display: inline-block;
+       
+
+        .imagen1{
+            padding:20px;
+            width: 400px;
+            height: 300px;
+            transition: height 1s, width 2s, transform 2s;
+   
+        
+        }
+        .imagen2{
+            padding: 20px;
+            width: 400px;
+            height: 300px;
+            transition: height 1s, width 2s, transform 2s;
+        }
+        .imagen3{
+            padding: 20px;
+            width: 400px;
+            height: 300px;
+            transition: height 1s, width 2s, transform 2s;
+        }
+        .imagen4{
+            padding: 20px;
+            width: 400px;
+            height: 300px;
+            transition: height 1s, width 2s, transform 2s;
+        }
+        .imagen5{
+            padding:20px;
+            width: 400px;
+            height: 300px;
+           
+            transition: height 1s, width 2s, transform 2s;
+        
+        }
+        .imagen6{
+            padding: 20px;
+            width: 400px;
+            height: 300px;
+            transition: height 1s, width 2s, transform 2s;   
+        }
+        .imagen7{
+            padding: 20px;
+            width: 400px;
+            height: 300px;
+            transition: height 1s, width 2s, transform 2s;
+        }
+        .imagen8{
+            padding: 20px;
+            width: 400px;
+            height: 300px;
+            transition: height 1s, width 2s, transform 2s;
+        }
+        .imagen9{
+            padding: 20px;
+            width: 400px;
+            height: 300px;
+            transition: height 1s, width 2s, transform 2s;
+        }
+    }
+ 
+
+}
+
+
+.imagen1:hover{
+    transform: scale(1.5);
+    background-color: purple;
+}
+
+.imagen2:hover{
+    transform: scale(1.5);
+    background-color: black;
+}
+.imagen3:hover{
+    transform: scale(1.5);
+    background-color: pink;
+}
+.imagen4:hover{
+    transform: scale(1.5);
+    background-color: skyblue;
+}
+.imagen5:hover{
+    transform: scale(1.5);
+    background-color: red;
+}
+.imagen6:hover{
+    transform: scale(1.5);
+    background-color: green;
+}
+
+.imagen7:hover{
+    transform: scale(1.5);
+    background-color: pink;
+}
+.imagen8:hover{
+    transform: scale(1.5);
+    background-color: blue;
+}
+.imagen9:hover{
+    transform: scale(1.5);
+    background-color: rgb(77, 236, 14);
+}
