@@ -1,0 +1,89 @@
+/*formulario*/
+.form{
+    background-image: url(../imagenes/fondoform1.webp); 
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 10px 30px  67px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(67, 80, 82);
+   
+}
+.form_texto{
+ font-size: 2rem;
+ margin-bottom: 5rem;
+ 
+}
+.form_conteiner{
+    gap: 2.5 rem;
+    margin-top: 3rem;
+    display: grid;
+}
+.form_group{
+    position: relative;
+    color: black;
+    
+}
+.form_input{
+    width: 100%;
+    font-size: 1rem;
+    padding: .6rem .3rem;
+    color: rgb(66, 62, 52);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(53, 52, 50);
+    
+}
+.form_label{
+    color: rgb(17, 16, 14);
+    cursor: pointer;
+    font-size: 20px;
+}
+.borrar{
+    display: inline-flex;
+    background-color: red;
+    border-radius: 5px;
+    justify-content: center;
+    cursor: pointer;
+    width: 40%;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.enviar{
+    display: inline-flex;
+    background-color: green;
+    border-radius: 5px;
+    justify-content: center;
+    cursor: pointer;
+    width: 40%;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+/*cartas*/
+.card {
+    width: 100%;
+    margin: 80px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+ 
+
+    }
+    .card:hover{
+        box-shadow: 5px 5px 20px;
+        transform: translateY(-3%);
+    }
+
+    .contenedor-carta{
+        display: flex;
+        margin: 0;
+    }

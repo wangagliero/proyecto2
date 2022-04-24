@@ -1,44 +1,55 @@
-.banner{
-    margin-top: 50px;
-    position: relative;
-    display: inline-block;
-    text-align: center;
+
+
+section{
+    width: 100%;
   
 }
-.imagenfondo{
-    width: 100%;
-    height: 80%;
-    display: flex;
-    align-items: center;
 
+#banner img{
+    width: 100%;
+    height: 100%;
 }
-.text{
+
+ #banner .contenedor{
     position: absolute;
     top: 20%;
     left: 15%;
-    transform: translate(-50%,-50%);
-    color: $color2;
-
+    
+    color: aliceblue;
 }
+#banner h2{
+    font-size: 28px;
+}
+#banner a{
+    width: 100px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 60px;
+    border: 3px solid #fff;
+}
+
+
+
+
+
+
 .leermas{
-    background-color: $colorboton;
+    background-color: $colorpaleta3;
     color:$color2 ;
     text-align: center;
     text-decoration: none;
     border: none;
     width: 140px;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 16px 24px;
 }
 .leermas:hover{
-    background-color:$colorboton2 ;
+    background-color:$colorpaleta4;
     color: $color2;
 }
-.bienvenidos{
-    padding: 30px;
-    text-align: center;
 
-}
 .blog{
     display: flex;
     justify-content: center;
@@ -54,11 +65,7 @@ article{
         width: 300px;
         height: 300px;
       
-        border-radius: 20%;
+        border-radius: 80%;
        
-}
-h4{
-    margin: 15px;
-    text-align: center;
 }
 

@@ -1,0 +1,20 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Square+Peg&display=swap');
+@import "variables";
+@import "titulos";
+@import "navbar";
+@import "contenido";
+@import "index";
+@import "imagenes";
+@import "media-queries";
+@import "footer";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $colorpaleta2;
+}
+

@@ -5,64 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dmi primer proyecto con sass</title>
-    <link rel="stylesheet" href="../scss/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     
 </head>
 <body>
     <header>
-       <div class="contenedor">
        
-           <h1 class="nombremenu">dogs design</h1>
-          
-           <nav class="menu"> 
-            <a href="#">contactos </a> 
-            <a href="../paginas html/clientes.html">clientes</a> 
-            <a href="#">adociones </a> 
-            <a href="../paginas html/galleria.html">galeria </a>
-            <a href="../paginas html/index.html">inicio </a>  
-    
-   </nav>
+           <h1 class="icon-dog">Adopme</h1>
+           <input type="checkbox" id="btn-menu">
+        <label for="btn-menu" ><img src="./iconos/align-justify.svg" alt="" > 
+        </label>
+            <nav class="menu"> 
+                <ul>
+                    <li>
+                        <a href="./index.html">inicio </a> </li>
+                        <li> <a href="../paginas html/adopcion.html">adopcion </a></li>
+                        <li><a href="../paginas html/productos.html">productos</a> </li>
+                        <li>  <a href="../paginas html/clientes.html">clientes</a> </li>
+                        <li> <a href="../paginas html/formulario.html">formularios</a>  </li>
+            
+                </ul>
+               
+                   
+             </nav>
 
+
+            </div> 
+    
     </header>
-    <main>
-       <div class="banner">
-           <img src="../imagenes/fondo8.jpg" alt="" class="imagenfondo">
-           <div class="text">
+    
+    <section id="banner">
+        <img src="../imagenes/fondo8.jpg" alt="" class="imagenfondo">
+        <div class="contenedor">
             <h1>Mundo de Mascotas</h1>
             <p>todo lo que buscas en un solor lugar</p>
-            <a href="#" class="leermas">leer mas</a>
-           </div>
-       </div>
+            <a href="../paginas html/formulario.html" class="leermas"> ADOPTAR</a>
+        </div>
+
+
+    </section>
+
+
+    
+    
+    <main>
+      
       <div class="bienvenidos">
           <h2>BIENVENIDOS</h2>
           <p>les damos la bienvienida a nuesta web de mascotas, en donde encontras todo lo que nesecitas</p>
       </div>
       <div class="blog">
          <article>
-             <img src="../imagenes/adopcion.jpg" class= "imagenblog" alt="">
-             <h4>Adopta a una mascota</h4>
+             <img src="../imagenes/adopme (7).png" class= "imagenblog" alt="">
+             <h4 class="circulo">Adopciones perros</h4>
          </article>
          <article>
-            <img src="../imagenes/foto8.jpg" class="imagenblog" alt="">
-            <h4>Servicio fotografico</h4>
+            <img src="../imagenes/adopme (3).png" class="imagenblog" alt="">
+            <h4 class="circulo">Completa el formulario</h4>
         </article>
         <article>
-            <img src="../imagenes/tienda-animales.webp" class= "imagenblog" alt="">
-            <h4>Tienda de productos</h4>
+            <img src="../imagenes/adopme (8).png" class= "imagenblog" alt="">
+            <h4 class="circulo">Adopcion gatitos</h4>
         </article>
         
       </div>
 
 
-    
 
     
     </main>
     <footer>
         <div>
-            <h4>Contactanos</h4>
+            <h4 class="contactanos">Contactanos</h4>
            
-            <h3>Lunes a viernes de 9:00hs a 18:00hs</h3>
+     <h3 class="contactanos">Lunes a viernes de 9:00hs a 18:00hs</h3>
             
         </div>
     </footer>

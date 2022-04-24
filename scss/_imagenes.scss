@@ -1,17 +1,16 @@
 
+/*imagenes de adopcion.html*/
 
 .galeria-portafolio{
-    .imagengaleria {
+    .imagengaleria{
          display: inline-block;
        
-
+        }
         .imagen1{
             padding:20px;
             width: 400px;
             height: 300px;
             transition: height 1s, width 2s, transform 2s;
-   
-        
         }
         .imagen2{
             padding: 20px;
@@ -66,44 +65,70 @@
     }
  
 
-}
-
 
 .imagen1:hover{
-    transform: scale(1.5);
-    background-color: purple;
-}
+        transform: scale(1.5);
+        background-color: $colori3;
+    }
 
 .imagen2:hover{
     transform: scale(1.5);
-    background-color: black;
+    background-color: $colori2;
 }
 .imagen3:hover{
     transform: scale(1.5);
-    background-color: pink;
+    background-color: $colori1;
 }
 .imagen4:hover{
     transform: scale(1.5);
-    background-color: skyblue;
+    background-color: $colori2;
 }
 .imagen5:hover{
     transform: scale(1.5);
-    background-color: red;
+    background-color: $colori3;
 }
 .imagen6:hover{
     transform: scale(1.5);
-    background-color: green;
+    background-color: $colori1;
 }
 
 .imagen7:hover{
     transform: scale(1.5);
-    background-color: pink;
+    background-color: $colori2;
 }
 .imagen8:hover{
     transform: scale(1.5);
-    background-color: blue;
+    background-color: $colori3;
 }
 .imagen9:hover{
     transform: scale(1.5);
-    background-color: rgb(77, 236, 14);
+    background-color: $colori1;
+}
+
+
+/*imagenes de clientes */
+
+.info{
+    background-color: $colorpaleta2;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+
+&.conteiner{
+    position: absolute;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+}
+.info-pet{
+    margin: 20px;
+    img{
+        
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 7px solid #fff;
+    }
 }
